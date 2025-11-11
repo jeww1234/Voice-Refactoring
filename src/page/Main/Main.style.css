@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.option-area {
+  flex: 1.5;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.recorder-area {
+  flex: 5;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.result-area{
+  flex: 3.5;
+  padding: 20px;
+  background-color: #c0f7c0;
+}

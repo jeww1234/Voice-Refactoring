@@ -1,12 +1,23 @@
-import "./Main.style.css"
-import type {FC} from "react"
+import "./Main.style.css";
+import React from 'react'
+import SelectOption from "./component/SelectOption/SelectOption";
+import Recording from "./component/Recording/Recording";
+import Result from "./component/Result/Result";
 
-const Main: FC = () => {
+const Main: React.FC = () => {
   return (
-    <div>
-      Main
+    <div className="main">
+      <div className="option-area">
+        <SelectOption />
+      </div>
+      <div className="recorder-area">
+        <Recording />
+      </div>
+      <div className="result-area">
+        <Result />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
